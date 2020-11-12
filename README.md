@@ -29,7 +29,7 @@ response is pretty-printed to STDOUT.
 ```
 $ ckanapi action group_list -r https://demo.ckan.org --insecure
 [
-  "data-explorer",
+  "data-exp lorer",
   "example-group",
   "geo-examples",
   ...
@@ -38,7 +38,7 @@ $ ckanapi action group_list -r https://demo.ckan.org --insecure
 
 Use -r to specify the remote CKAN instance, and -a to provide an
 API KEY. Remote actions connect as an anonymous user by default.
-For this example, we use --insecure as the CKAN demo uses a 
+For this example, we use --insecure as the CKAN demo site uses a 
 self-signed certificate.
 
 Local CKAN actions may be run by specifying the config file with -c.
